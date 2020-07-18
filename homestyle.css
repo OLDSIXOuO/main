@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+.header{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(35, 35, 35);
+    font-family: "Century Gothic", "Arial", "sans-serif";
+}
+
+.header h1{
+    font-size: 7vh;
+    text-align: center;
+    color: #fff;
+    animation: transitionIn 1s;
+}
+
+.header a{
+    font-size: 7vh;
+    text-align: left;
+    position: absolute;
+    text-transform: uppercase;
+    color: #EA66FF;
+    font-weight: 500;
+    text-decoration: none;
+    animation: transitionIn 1s;
+}
+
+.btext{
+    font-size: 100px;
+    font-family: "Century Gothic", "Arial";
+    color:#fff; 
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    width: 100%;
+    animation: transitionIn 1s;
+    
+}
+
+#particles-js{
+    height: 90%;
+    width: 100%;
+    background-color: #262626;
+}
